@@ -1,0 +1,970 @@
+@media screen and (max-width: 1920px) {
+  header {
+    .desktop-menu {
+      display: flex !important;
+    }
+  }
+}
+
+/* Laptop tam ekran Sınırı */
+@media screen and (max-width: 1918px) {
+  /* .contactPage {
+    
+    
+  } */
+
+  footer {
+    /* margin-top: 240px; */
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  header {
+    .desktop-menu {
+      .has-sub-menu {
+        .has-sub-sub-menu {
+          ul {
+            li {
+              font-size: 16px !important;
+              padding: 0px 30px 0px 30px !important;
+
+              a {
+                &::after {
+                  transform: scale(0.9) !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .homePage {
+    .homeContent {
+      padding-top: 240px;
+    }
+  }
+
+  .sertifikalarPage {
+    .sertifikaBgImg {
+      transform: scale(0.8);
+      position: absolute;
+      top: -222px;
+      right: -600px;
+      max-width: 130%;
+      height: auto;
+    }
+  }
+  .personalizasyonPage {
+    .personalizasyonPar1 {
+      .Par1Content {
+        padding: 80px 0px;
+      }
+    }
+  }
+
+  .urunlerCart1 {
+    &__foto {
+      img {
+        transform: scale(0.95);
+      }
+    }
+  }
+  .urunlerCart2 {
+    &__foto {
+      img {
+        transform: scale(0.95);
+      }
+    }
+  }
+  .urunlerCart3 {
+    &__foto {
+      img {
+        transform: scale(0.95);
+      }
+    }
+  }
+  .urunlerCart4 {
+    &__foto {
+      img {
+        transform: scale(0.95);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    .desktop-menu {
+      .has-sub-menu {
+        .has-sub-sub-menu {
+          ul {
+            li {
+              font-size: 16px !important;
+              padding: 0px 15px 0px 20px !important;
+
+              a {
+                &::after {
+                  transform: scale(0.8) !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .TcartJoinPage {
+    .TcartJoinContent {
+    }
+    .TcartJoinImg {
+      display: none;
+    }
+  }
+
+  .personalizasyonPage {
+    .personalizasyonPar1 {
+      .Par1Content {
+        padding: 50px 0px;
+      }
+    }
+  }
+  .urunlerCart1 {
+    &__foto {
+      img {
+        transform: scale(0.75);
+      }
+    }
+  }
+  .urunlerCart2 {
+    &__foto {
+      img {
+        transform: scale(0.75);
+      }
+    }
+  }
+  .urunlerCart3 {
+    &__foto {
+      img {
+        transform: scale(0.75);
+      }
+    }
+  }
+  .urunlerCart4 {
+    &__foto {
+      img {
+        transform: scale(0.75);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .tBankacilikPage {
+    .tUrunlerCoverPage {
+      .tBankacilikContent {
+        width: 50%;
+      }
+    }
+  }
+}
+
+/* Bootstrap XLarge ekran sınırı */
+@media screen and (max-width: 1200px) {
+  header {
+    .desktop-menu {
+      ul {
+        li {
+          margin-left: 75px;
+        }
+      }
+      .has-sub-menu {
+        .has-sub-sub-menu {
+          ul {
+            width: 75% !important;
+            li {
+              font-size: 16px !important;
+              padding: 0px 15px 0px 20px !important;
+
+              a {
+                &::after {
+                  transform: scale(0.8) !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sertifikalarPage {
+    .sertifikaBgImg {
+      transform: scale(0.7);
+      position: absolute;
+      top: -222px;
+      right: -350px;
+      max-width: 130%;
+      height: auto;
+    }
+  }
+
+  .firmamızPage {
+    .firmamızCartImgs {
+      img {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .degerlerimizPage {
+    .degerlerimizItemContent {
+      margin-left: 0 !important;
+    }
+  }
+
+  .tBankacilikPage {
+    .tUrunlerCoverPage {
+      .tBankacilikContent {
+        width: 60%;
+      }
+    }
+  }
+
+  .personalizasyonPage {
+    .personalizasyonPar1 {
+      .Par1Img {
+        position: relative;
+        img {
+          position: relative;
+          left: 0;
+
+          width: 100%;
+          height: auto;
+        }
+      }
+
+      .Par1Content {
+        margin-top: -40px;
+        padding: 0px 0px 80px 0;
+      }
+    }
+  }
+
+  /* tUrunler her sayfa için geçerli olan ortaklar */
+  .urunlerCart1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center !important;
+    padding: 40px 9% !important;
+
+    &__content {
+      text-align: center !important;
+      p {
+        text-align: center !important;
+      }
+    }
+    img {
+      margin: 0 !important;
+      transform: scale(0.75);
+    }
+  }
+
+  .urunlerCart2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center !important;
+    width: 100%;
+    padding: 40px 9% !important;
+
+    &__content {
+      text-align: center !important;
+      p {
+        text-align: center !important;
+      }
+    }
+
+    img {
+      margin: 0 !important;
+      transform: scale(0.75);
+    }
+  }
+
+  .urunlerCart3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center !important;
+    padding: 40px 9% !important;
+
+    &__content {
+      text-align: center !important;
+      p {
+        text-align: center !important;
+      }
+    }
+
+    img {
+      margin: 0 !important;
+      transform: scale(0.75);
+    }
+  }
+
+  .urunlerCart4 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center;
+    width: 100%;
+    text-align: center !important;
+    padding: 40px 9% !important;
+
+    &__content {
+      text-align: center !important;
+      p {
+        text-align: center !important;
+      }
+    }
+
+    img {
+      margin: 0 !important;
+      transform: scale(0.75);
+    }
+  }
+
+  footer {
+    .iletişim {
+      text-align: start !important;
+    }
+  }
+
+  .tKimlikPage {
+    .urunlerCart2 {
+      padding: 0% 9% !important;
+    }
+
+    .urunlerCart3 {
+      padding: 0% 9% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1112px) {
+}
+
+/* Bootstrap Large sınırı 991px */
+@media screen and (max-width: 991px) {
+  /* tUrunler Cover Page general  */
+  .tUrunlerCoverPage {
+    text-align: center;
+    margin-top: 250px;
+    height: 140vh;
+
+    &__img {
+      margin-bottom: 80px;
+    }
+
+    .container {
+      .row {
+        height: auto;
+      }
+    }
+  }
+
+  .projeGelistirmeVeYazılımPage {
+    .tUrunlerCoverPage {
+      .container {
+        height: 100%;
+        .row {
+          height: 100%;
+          align-items: center;
+        }
+      }
+
+      margin-top: 0px;
+    }
+  }
+
+  .AdanZyeKartUretimiPage {
+    .tUrunlerCoverPage {
+      .container {
+        height: 100%;
+        .row {
+          height: 100%;
+          align-items: center;
+        }
+      }
+
+      margin-top: 0px;
+    }
+  }
+
+  /* tUrunler her sayfa için geçerli olan ortaklar */
+  .urunlerCart1 {
+    &__foto {
+      img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+  .urunlerCart2 {
+    &__foto {
+      img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+  .urunlerCart3 {
+    &__foto {
+      img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+  .urunlerCart4 {
+    &__foto {
+      img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+
+  header {
+    .desktop-menu {
+      display: none !important;
+    }
+  }
+
+  .homePage {
+    height: 150vh;
+
+    .homeImg {
+      max-width: 100%;
+      height: auto;
+      bottom: 0;
+      top: 60vh;
+      right: 0;
+    }
+  }
+  /* Slider Loop engelleme */
+
+  .cardsPage {
+    .cartsContainer {
+      .HomeCardsSwiper {
+        height: 28rem;
+      }
+    }
+  }
+
+  .sertifikalarPage {
+    padding-top: 110vh;
+
+    .sertifikalarContainer {
+      .HomeSertifikalarSwiper {
+        height: 780px;
+      }
+    }
+    .sertifikaBgImg {
+      transform: scale(0.7);
+      position: absolute;
+      top: -400px;
+      right: 350px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .contactPage {
+    padding: 0;
+
+    .contactForm {
+      margin: auto;
+      transform: scale(0.8);
+    }
+  }
+
+  .firmamızPage {
+    .kartUretimSayılar {
+      .kart {
+        width: 300px;
+      }
+    }
+  }
+
+  .zarflamaVePaketlemePage {
+    .zarflamaVePaketlemePar1 {
+      .Par1Img {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .iletisimPage {
+    .tUrunlerCoverPage {
+      text-align: center;
+
+      &__content {
+        .iletisimContentRow {
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  footer {
+    .footerUp {
+      .footer-kartImg {
+        text-align: center;
+      }
+
+      .iletişim {
+        text-align: start;
+      }
+    }
+
+    .footerDown {
+      text-align: center;
+    }
+  }
+}
+
+/* Bootstrap Small screen 768px */
+@media screen and (max-width: 768px) {
+  .tUrunlerFormContainer {
+    .formContents {
+      .tUrunlerInput {
+        width: 60%;
+        height: 50px;
+
+        display: flex;
+        margin: auto;
+        margin-bottom: 23px;
+      }
+
+      .kartTuruSelect {
+        position: relative;
+
+        &::after {
+          top: 70%;
+          right: 120px;
+        }
+      }
+
+      .formLastRow {
+        textarea {
+          width: 60%;
+          display: flex;
+          margin: auto;
+          margin-bottom: 20px;
+        }
+
+        p {
+          width: 60%;
+          display: flex;
+          margin: auto;
+          margin-bottom: 20px;
+        }
+
+        .formGonderButton {
+          width: 60%;
+          height: 50px;
+          display: flex;
+          margin: auto;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .homePage {
+    height: 150vh;
+
+    .homeImg {
+      max-width: 100%;
+      height: auto;
+      bottom: 0;
+      top: 70vh;
+      left: -10%;
+    }
+  }
+
+  .sertifikalarPage {
+    padding-top: 100vh;
+
+    .sertifikaBgImg {
+      transform: scale(0.6);
+      position: absolute;
+      top: -400px;
+      right: 350px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .tUrunlerCoverPage {
+    margin-top: 200px;
+    height: 130vh;
+
+    &__img {
+      height: 40%;
+    }
+  }
+}
+
+/* Bootstrap Extra small screen 576px*/
+@media screen and (max-width: 576px) {
+  main {
+    text-align: center !important;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 24px !important;
+    line-height: normal !important;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  p {
+    font-size: 12px !important;
+    line-height: 1.2rem !important;
+  }
+
+  .detayButton {
+    transform: scale(0.7);
+  }
+
+  header {
+    .desktop-logo {
+      transform: scale(0.6);
+      height: 100px;
+      .img-container {
+        padding-top: 0;
+      }
+    }
+
+    .mobile-menu {
+      width: 70%;
+      right: -70%;
+    }
+  }
+
+  .detayButton {
+    padding: 15px 40px;
+  }
+
+  .homePage {
+    text-align: center !important;
+    height: 115vh;
+    .homeContent {
+      padding-top: 150px;
+      img {
+        margin-top: 10px;
+        transform: scale(0.7);
+      }
+    }
+
+    .homeImg {
+      max-width: 100%;
+      height: auto;
+      bottom: 0;
+      top: 45vh;
+      left: -190px;
+    }
+  }
+
+  .cardsPage {
+    .leftArrowTop {
+      display: none;
+    }
+    .leftArrowBottom {
+      display: none;
+    }
+
+    .cartsContainer {
+      .HomeCardsSwiper {
+        height: 18rem;
+      }
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+    .cartContents {
+      width: 85% !important;
+      margin: 20px auto !important;
+      svg {
+        transform: scale(0.8);
+      }
+
+      h3 {
+        font-weight: 500 !important;
+        font-size: 19px !important;
+        line-height: 22px !important;
+      }
+
+      .detayButton {
+        display: block !important;
+        width: fit-content !important;
+        margin: auto;
+      }
+    }
+
+    .whiteArrow {
+      display: none;
+    }
+  }
+
+  .solutionsPage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h2 {
+      margin-bottom: 30px;
+    }
+    .solutionCell {
+      padding-top: 0;
+      padding-bottom: 10px;
+      width: 90%;
+      margin: 10px auto;
+
+      &:nth-last-of-type(1) {
+        background-color: #18212c;
+      }
+      &:nth-last-of-type(2) {
+        background-color: #2b3a4b;
+      }
+      &:nth-last-of-type(3) {
+        background-color: #3c5169;
+      }
+      &:nth-last-of-type(4) {
+        background-color: #5e738b;
+      }
+
+      img {
+        transform: scale(0.6);
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 21px;
+        margin: 0;
+      }
+    }
+  }
+
+  .sertifikalarPage {
+    padding-top: 520px;
+
+    .leftArrowTopSertifikalar {
+      display: none;
+    }
+    .leftArrowBottomSertifikalar {
+      display: none;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .sertifikalarContainer {
+      .HomeSertifikalarSwiper {
+        height: 375px;
+      }
+
+      .sertifika {
+        opacity: 1 !important;
+        .sertifikalarContents {
+          margin: 0 auto;
+          img {
+            height: 62px;
+            width: auto;
+            transform: scale(0.8);
+            &.visaImg {
+              transform: scale(0.6);
+            }
+          }
+
+          h3 {
+            font-weight: 500 !important;
+            font-size: 22px !important;
+            margin: 0 !important;
+            line-height: 1.5rem;
+          }
+
+          p {
+            padding: 0 15px;
+          }
+          .sertifikaButton {
+            border-radius: 40px;
+            font-size: 14px;
+            padding: 10px 10px !important;
+
+            img {
+              display: none;
+              transform: scale(0.7);
+            }
+          }
+        }
+      }
+    }
+
+    .sertifikaBgImg {
+      transform: scale(0.4);
+      position: absolute;
+      top: -575px;
+      right: 270px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .TcartJoinPage {
+    padding: 60px 0px 60px 0px;
+
+    .TcartJoinContent {
+      .BasvurButton {
+        font-size: 15px;
+        border-radius: 40px;
+        padding: 10px 60px;
+
+        img {
+          transform: scale(0.7);
+        }
+      }
+    }
+  }
+
+  .contactPage {
+    height: auto;
+    .contactForm {
+      box-shadow: none;
+      padding: 0;
+
+      label {
+        text-align: left;
+        font-size: 12px !important;
+        font-weight: 200 !important;
+      }
+
+      .sendButton {
+        margin: auto;
+        font-size: 15px !important;
+      }
+    }
+
+    .contactMap {
+      display: none;
+    }
+  }
+
+  .firmamızPage {
+    margin-top: 200px;
+  }
+
+  .kartOkuyucularPage {
+    .kartOkuyucularıPar3 {
+      .part3Center {
+        p {
+          padding-left: 0 !important;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .tUrunlerSliderContainer {
+    .sliderArrows {
+      margin-top: 20px !important ;
+      img {
+        transform: scale(0.8);
+      }
+
+      span {
+        margin: 15px !important;
+      }
+    }
+  }
+
+  .tUrunlerCoverPage {
+    margin-top: 200px;
+    height: 100vh;
+
+    &__img {
+      height: 45%;
+    }
+
+    &::before {
+      height: 807px;
+      width: 807px;
+    }
+  }
+
+  footer {
+    text-align: center;
+    margin: auto;
+
+    .footerUp {
+      padding-top: 30px;
+      padding-bottom: 20px;
+
+      .footerBox {
+        display: none;
+
+        &.footer-kartImg {
+          transform: scale(0.7);
+          display: block;
+        }
+        &.iletişim {
+          display: block;
+          text-align: center !important;
+
+          p {
+            line-height: 28px !important;
+          }
+
+          a {
+            strong {
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 60px;
+            }
+
+            img {
+              transform: scale(0.7);
+            }
+          }
+        }
+      }
+    }
+
+    .footerDown {
+      text-align: center !important;
+      .footerBottomRight {
+        margin: 15px 0 !important;
+      }
+      .footerBottomCenter {
+        display: none !important;
+      }
+    }
+  }
+}
